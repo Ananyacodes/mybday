@@ -27,7 +27,7 @@ function killswitch(){
 
 function say_hello(){
   var name = document.getElementById("name").value;
-  document.getElementById("Welcome").innerHTML = "<h2>Welcome to my page " + name + "</h2>";
+  document.getElementById("Welcome").innerHTML = "<h2>Wish me " + name + ",you turnip with a face! </h2>";
   if (name.length < 1) {
     document.getElementById("Welcome").innerHTML = "";
   }
